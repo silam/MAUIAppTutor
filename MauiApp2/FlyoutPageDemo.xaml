@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.FlyoutPageDemo"
+            FlyoutLayoutBehavior="Split"
+            
+             Title="FlyoutPageDemo">
+    <FlyoutPage.Flyout>
+        <ContentPage Title="My App" BackgroundColor="AliceBlue">
+            <Label Text="Hello From Flyout"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"></Label>
+        </ContentPage>
+    </FlyoutPage.Flyout>
+    
+    <FlyoutPage.Detail>
+        <ContentPage BackgroundColor="Aquamarine">
+            <Label Text="Hello From Flyout Details"
+    HorizontalTextAlignment="Center"
+    VerticalTextAlignment="Center"></Label>
+        </ContentPage>
+    </FlyoutPage.Detail>
+</FlyoutPage>
