@@ -11,7 +11,7 @@
             //navPage.BarTextColor = Colors.White;
             //MainPage = navPage;
             //new AppShell();
-            MainPage = new StackLayoutDemo();
+            MainPage = new Grid();
         }
     }
 }
