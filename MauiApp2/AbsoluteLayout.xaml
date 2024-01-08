@@ -2,8 +2,11 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp2.AbsoluteLayout"
+             BackgroundColor="Red"
              Title="AbsoluteLayout">
     <AbsoluteLayout>
-        <Button></Button>
+        <Button BackgroundColor="Blue" Text="Click Me" AbsoluteLayout.LayoutBounds="0.5,0.5,0.5,0.5" AbsoluteLayout.LayoutFlags="All"></Button>
+        <Button Text=".NET MAUI"></Button>
+
     </AbsoluteLayout>
 </ContentPage>
