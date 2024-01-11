@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.PresentationControlDemo"
+             Title="PresentationControlDemo">
+    <ScrollView>
+        <VerticalStackLayout>
+            <BoxView BackgroundColor="LightCoral" HeightRequest="200">
+
+            </BoxView>
+
+            <Label Text="Label" BackgroundColor="White" TextColor="Red"  FontSize="Large" VerticalTextAlignment="Center" HorizontalOptions="Center"></Label>
+
+
+            <Ellipse  Fill="LightCoral" HeightRequest="200" WidthRequest="200" Stroke="SeaGreen" StrokeThickness="10" HorizontalOptions="Center"></Ellipse>
+
+            <Line Stroke="DarkBlue" X1="0" Y1="0" X2="100" Y2="50" StrokeThickness="5">
+
+
+
+            </Line>
+
+            <Rectangle Fill="Aqua" Stroke="Brown" StrokeThickness="1" HeightRequest="90" WidthRequest="90" RadiusX="10" RadiusY="10">
+
+            </Rectangle>
+
+            <Polygon Fill="LightBlue" Points="40,10 70,80 10,50"
+             Stroke="DarkBlue" StrokeThickness="5"
+             StrokeDashArray="1,1" StrokeDashOffset="6  ">
+
+            </Polygon>
+
+            <Polygon Fill="LightCyan" Points="300,200 110,80 120,50"
+     Stroke="DarkBlue" StrokeThickness="5"
+     StrokeDashArray="1,1" StrokeDashOffset="6  ">
+
+            </Polygon>
+
+            <Path Aspect="Uniform" Data="M 10,100 L 100,100 100,50Z" 
+                  Stroke="Black" 
+                  HorizontalOptions="Center">
+                
+            </Path>
+
+            <Border 
+                Stroke="LightGreen"
+                StrokeThickness="4"
+                Background="LightGoldenrodYellow"
+                HorizontalOptions="Center">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="40,0,0,40">
+                        
+                    </RoundRectangle>
+                </Border.StrokeShape>
+                        <Label Text="Welcome to .NET Maui"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center"
+                               TextColor="Black">
+                            
+                        </Label>
+            </Border>
+
+            <Frame Margin="5" BackgroundColor="azure" Padding="10">
+                <Image Source="dotnet_bot.png"></Image>
+
+            </Frame>
+
+            <WebView HeightRequest="500"
+                     Source="https://redwingshoes.com">
+                
+            </WebView>
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>

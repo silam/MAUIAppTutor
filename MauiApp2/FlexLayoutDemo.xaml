@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.FlexLayoutDemo"
+             Title="FlexLayoutDemo">
+    <FlexLayout Direction="Column">
+        <Label 
+            Text="Header" FontSize="18" BackgroundColor="Aqua"
+            HorizontalTextAlignment="Center"/>
+
+        <FlexLayout FlexLayout.Grow="1">
+            <Label Text="Content" FlexLayout.Grow="1" 
+                   HorizontalTextAlignment="Center" VerticalTextAlignment="Center" BackgroundColor="Yellow">
+                
+            </Label>
+
+            <BoxView FlexLayout.Basis="50" FlexLayout.Order="-1" Color="Blue">
+                
+            </BoxView>
+
+            <BoxView FlexLayout.Basis="50" Color="Blue">
+
+            </BoxView>
+            
+        </FlexLayout>
+
+        <Label 
+     Text="Footer" FontSize="18" BackgroundColor="GreenYellow"
+     HorizontalTextAlignment="Center"/>
+    </FlexLayout>
+</ContentPage>

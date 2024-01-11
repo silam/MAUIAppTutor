@@ -11,7 +11,8 @@
             //navPage.BarTextColor = Colors.White;
             //MainPage = navPage;
             //new AppShell();
-            MainPage = new AbsoluteLayout();
+            //MainPage = new FlexLayoutDemo();
+            MainPage = new PresentationControlDemo();
         }
     }
 }
