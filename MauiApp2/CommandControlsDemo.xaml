@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.CommandControlsDemo"
+             Title="CommandControlsDemo">
+    <VerticalStackLayout>
+        <Button Text="ClickMe!" Clicked="btnTest_Clicked" x:Name="btnTest">
+            
+        </Button>
+
+        <ImageButton BindingContext="Image Click" Clicked="btnTest_Clicked" Source="dotnet_bot.png">
+            
+        </ImageButton>
+
+        <RadioButton CheckedChanged="RadioButton_CheckedChanged" Content="Option 1" GroupName="grp1"></RadioButton>
+        <RadioButton CheckedChanged="RadioButton_CheckedChanged" Content="Option 2" GroupName="grp1"></RadioButton>
+
+        <RadioButton CheckedChanged="RadioButton_CheckedChanged" Content="Option 3" GroupName="grp1"></RadioButton>
+
+        <RadioButton CheckedChanged="RadioButton_CheckedChanged" Content="Option 4" GroupName="grp1"></RadioButton>
+
+
+        <SearchBar x:Name="SearchControl" SearchButtonPressed="SearchControl_SearchButtonPressed">
+            
+        </SearchBar>
+
+        <SwipeView>
+            <SwipeView.LeftItems>
+                <SwipeItems>
+                    <SwipeItem BackgroundColor="Aquamarine" IconImageSource="dotnet_bot.png" Text="Favorite" Invoked="SwipeItem_Invoked">
+                        
+                    </SwipeItem>
+
+                    <SwipeItem BackgroundColor="LightPink" IconImageSource="dotnet_bot.png" Text="Delete" Invoked="SwipeItem_Invoked">
+
+                    </SwipeItem>
+                </SwipeItems>
+
+                
+            </SwipeView.LeftItems>
+
+            <Grid BackgroundColor="LightSalmon"
+                            HeightRequest="60" WidthRequest="300">
+
+                <Label Text="Swipe Right"></Label>
+
+            </Grid>
+            
+        </SwipeView>
+
+       
+        
+        
+    </VerticalStackLayout>
+</ContentPage>
