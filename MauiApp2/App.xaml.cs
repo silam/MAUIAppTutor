@@ -12,7 +12,7 @@
             //MainPage = navPage;
             //new AppShell();
             //MainPage = new FlexLayoutDemo();
-            MainPage = new CommandControlsDemo();
+            MainPage = new InputControlDemo();
         }
     }
 }

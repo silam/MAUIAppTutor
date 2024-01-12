@@ -81,6 +81,9 @@
 	  <MauiXaml Update="Grid.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="InputControlDemo.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="PresentationControlDemo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
