@@ -66,37 +66,40 @@
 	  <MauiXaml Update="AbsoluteLayout.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ActivityControlDemo.xaml">
+	  <MauiXaml Update="Controls\ActivityControlDemo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="CommandControlsDemo.xaml">
+	  <MauiXaml Update="CollectionsControlDemo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ContentPageDemo.xaml">
+	  <MauiXaml Update="Controls\CommandControlsDemo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="FlexLayoutDemo.xaml">
+	  <MauiXaml Update="Controls\ContentPageDemo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="FlyoutPageDemo.xaml">
+	  <MauiXaml Update="Controls\FlexLayoutDemo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Grid.xaml">
+	  <MauiXaml Update="Controls\FlyoutPageDemo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="InputControlDemo.xaml">
+	  <MauiXaml Update="Controls\Grid.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="PresentationControlDemo.xaml">
+	  <MauiXaml Update="Controls\InputControlDemo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="StackLayoutDemo.xaml">
+	  <MauiXaml Update="Controls\PresentationControlDemo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="TabbedPageDemo.xaml">
+	  <MauiXaml Update="Controls\StackLayoutDemo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="TextControlDemo.xaml">
+	  <MauiXaml Update="Controls\TabbedPageDemo.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Controls\TextControlDemo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
